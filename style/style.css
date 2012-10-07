@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family:"Times New Roman",Times,serif;
+	font-size:14px;
+}
+
+.header{
+	width:980px;
+	margin:0px auto;
+	text-align:center;
+	height:320px;
+	position:relative;
+	background-color:#090;
+}
+
+.navbar{
+	height:40px;
+	background:url("../src/NavBar.gif") repeat-x scroll 0 0 transparent;
+	width:980px;
+	margin:0px auto;
+}
+
+div.menu{
+	text-align:center;
+	height:40px;
+	margin:0px auto;
+	padding-left:0px;
+	width:980px;
+}
+
+div.menu ul{
+	float:left;
+	margin:0 auto;
+	margin-left:0px;
+	margin-right:0px;
+	height:40px;
+	width:640px;
+}
+
+div.menu ul li{
+	margin-right:0px;
+	display:block;
+	float:left;
+	width:120px;
+	/*border:1px solid red !important;*/
+}
+
+div.menu ul li a{
+	color:#FFF;
+	display:block;
+	float:left;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+}
+
+div.menu ul li a:hover{
+	text-decoration:none;
+}
+
+div.menu ul li a.cur{
+	background:url("../src/NavBar_.gif") no-repeat 0px 0px transparent;
+	color:#090;
+}
+
+div.container{
+	width:980px;
+	margin:0px auto;
+	padding:0px;
+}
+
+div.left_index{
+	width:410px;
+	float:left;
+	margin:5px 20px 0px 20px;
+}
+
+div.container p{;
+}
+
+div.right_index{
+	width:520px;
+	float:right;
+	margin:5px 5px 0px 5px;
+}
+
+div.left_advice{
+	width:200px;
+	float:left;
+	display:block;
+	margin:0 auto;
+	padding:0;
+}
+
+div.right_advice{
+	width:460px;
+	float:right;
+	display:inline;
+	margin:0 auto;
+	padding:0;
+}
+
+table tr td img{/*display*/
+	margin:10px;
+}
+
+table.display tr td p{
+	text-align:center;
+	font-weight:bold;/*果品展示*/
+	margin-top:-6px;
+}
+
+p.title{
+	font-weight:bold;/*采摘咨询*/
+}
+
+.footer{
+	clear:both;
+	width:980px;
+	margin:0px auto;
+	text-align:center;
+	background-color:#390;
+}
+
+.footer div{
+	text-align:center;
+}
+
+.footer p{
+	margin:5px;
+}
+
+div.left{
+	width:270px;
+	border:5px solid #390 !important;
+	padding:5px;
+	margin:0px 5px 5px 5px;
+	display:block;
+	float:left;
+}
+
+div.left div.act{
+}
+
+div.left div.info{
+}
+
+div.right{
+	width:670px;
+	border:5px solid #390 !important;
+	margin:0px 0px 0px 0px;
+	display:inline;
+	float:right;
+}
+
+div.right div.center{
+	margin:40px;
+	font-size:16px;
+}
