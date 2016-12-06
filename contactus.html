@@ -182,6 +182,22 @@
         offset: new AMap.Pixel(0, -30)
       });
       infowindow.open(map,[117.050981,40.179736]);
+
+      AMap.plugin(['AMap.Autocomplete','AMap.PlaceSearch'],function(){
+      var autoOptions = {
+        city: "北京", //城市，默认全国
+        input: "keyword"//使用联想输入的input的id
+      };
+      autocomplete= new AMap.Autocomplete(autoOptions);
+      var placeSearch = new AMap.PlaceSearch({
+            city:'北京',
+            map:map
+      })
+      AMap.event.addListener(autocomplete, "select", function(e){
+         //TODO 针对选中的poi实现自己的功能
+         placeSearch.search(e.poi.name)
+      });
+      
     })
    </script>
 
