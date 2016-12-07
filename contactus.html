@@ -175,7 +175,7 @@
          panel: 'panel',
          placeSearch: false,
          asOrigin: false,
-         asDestination: true,
+         asDestination: false,
         content: '<div class="info-title">北京平谷京香园</div><div class="info-content">'+
                 '地址：北京市平谷区大兴庄镇北埝头村<br/>'+
                 '联系人：唐先生 13810399272</div>',
@@ -185,21 +185,6 @@
 
     })
     
-
-      AMap.plugin(['AMap.Autocomplete','AMap.PlaceSearch'],function(){
-      var autoOptions = {
-        city: "北京", //城市，默认全国
-        //input: "keyword"//使用联想输入的input的id
-      };
-      autocomplete= new AMap.Autocomplete(autoOptions);
-      var placeSearch = new AMap.PlaceSearch({
-            city:'北京',
-            map:map
-      })
-      AMap.event.addListener(autocomplete, "select", function(e){
-         //TODO 针对选中的poi实现自己的功能
-         placeSearch.search(e.poi.name)
-      });
    </script>
 
 </html>
