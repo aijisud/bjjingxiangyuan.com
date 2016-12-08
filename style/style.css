@@ -38,7 +38,7 @@ div.menu ul{
 	margin-left:0px;
 	margin-right:0px;
 	height:40px;
-	width:640px;
+	width:900px;
 }
 
 div.menu ul li{
@@ -93,12 +93,12 @@ div.left_advice{
 	width:200px;
 	float:left;
 	display:block;
-	margin:0 auto;
+	margin:0 10px;
 	padding:0;
 }
 
 div.right_advice{
-	width:460px;
+	width:440px;
 	float:right;
 	display:inline;
 	margin:0 auto;
@@ -139,7 +139,7 @@ div.left{
 	width:270px;
 	border:5px solid #390 !important;
 	padding:5px;
-	margin:0px 5px 5px 5px;
+	margin:0px 5px 5px 0px;
 	display:block;
 	float:left;
 }
@@ -156,9 +156,14 @@ div.right{
 	margin:0px 0px 0px 0px;
 	display:inline;
 	float:right;
+	font-size:16px;
 }
 
 div.right div.center{
 	margin:40px;
-	font-size:16px;
+}
+
+p.titlestress{
+	font-size: 20px;
+	color: red;
 }
